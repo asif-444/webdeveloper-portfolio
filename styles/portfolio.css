@@ -1,0 +1,40 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-primary{
+    background: orangered;
+    border-radius: 5px;
+    color: aqua;
+}
+ 
+.text-primary{
+    color:orangered;
+}
+/* nav related styles */
+nav {
+    display: flex;
+}
+
+.nav-title{
+    color:black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: navy;
+}
